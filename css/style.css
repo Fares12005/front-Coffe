@@ -1,0 +1,45 @@
+body{
+    background: linear-gradient(red , black);
+    height: 100vh;
+    overflow-y: hidden;
+}
+.contant{
+    width: 500px;
+    height: 500px;
+    position: relative;
+    left: 30%;
+    top: 10%;
+
+}
+
+form{
+ 
+    position: absolute;
+
+    left: 40%;
+    top: 35%;
+}
+
+
+label{
+    position: absolute;
+    left: -40%;
+    margin-top: 15px;
+}
+
+input{
+    display:block;
+    margin-top: 15px;
+}
+
+button{
+    display:block;
+    margin-top: 15px;
+    width: 90px;
+    height: 30px;
+}
+
+p{
+    color: white;
+    text-align: center;
+}
